@@ -24,8 +24,6 @@ class Solution {
             pairInfo.get(pair[1]).add(pair[0]);
         }
 
-        foo();
-        
         for (int i = 0; i < words1.length; i++) {
             if (words1[i].equals(words2[i])) continue;
             
@@ -38,18 +36,6 @@ class Solution {
         }
         
         return true;
-    }
-
-    public void foo() {
-        // foooooooo
-        int[] ia = new int[10];
-
-        for (int i = 0; i < 10; i++) {
-            System.out.println();
-        }
-
-
-
     }
 }
 
