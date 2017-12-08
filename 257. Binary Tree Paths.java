@@ -18,3 +18,4 @@ class Solution {
         helper(root.right, res,path + root.val + "->");
     }
 }
+//solution 2
